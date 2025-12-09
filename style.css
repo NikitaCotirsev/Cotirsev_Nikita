@@ -1,0 +1,151 @@
+.header-block {
+    background-color: #89c7e6;   
+    padding: 25px;
+    border-radius: 12px;
+    width: 100%;
+    margin: 0 auto;
+    box-shadow: 0px 6px 16px rgba(0,0,0,0.18);
+    text-align: left;
+}
+
+h1, h2 {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+h3, h5 {
+    font-family: "Times New Roman", Times, serif;
+}
+
+.color-red { 
+    color: red; 
+}
+
+.big-text {
+    font-size: 30px;
+}
+
+p {
+    font-family: "Papyrus", "Courier New", Fantasy;
+}
+
+li {
+    font-family: "Lucida Handwriting", cursive;
+}
+
+
+body {
+    background-color: lightblue;
+    text-align: center;  /* centrăm totul */
+    margin: 0;
+    padding: 0;
+}
+
+
+#nume, #prenume, .color-red.big-text, .left-list {
+    text-align: left !important;
+    margin-left: 30px;
+}
+
+table, th, td {
+    border: 3px dashed navy;
+    border-collapse: collapse;
+    width: 500px;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+td {
+    text-align: center;
+    padding: 3px;
+}
+
+
+#rounded-img, #slide-img {
+    border-radius: 100px;
+    border: 0px solid #ddd;
+    padding: 20px;
+    width: 600px;
+    box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.20);
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+img {
+    width: 525px;
+    height: 380px;
+    border-radius: 0px;       
+    padding: 0;              
+    box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.20); 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#slideshow-btn, 
+#conexiune-btn, 
+#open-slideshow {
+    background-color: #2979ff;
+    color: white;
+    font-size: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+    margin-top: 20px;
+}
+
+#slideshow-btn:hover, 
+#conexiune-btn:hover, 
+#open-slideshow:hover {
+    background-color: #1b5fd6;
+    transform: scale(1.05);
+}
+
+
+.resources-layout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.resources-layout .row {
+    display: flex;
+    gap: 12px;
+}
+
+.resources-layout img {
+    width: 525px;
+    height: 380px;
+    border-radius: 100px;
+    box-shadow: 0px 8px 18px rgba(0,0,0,0.20);
+}
+
+
+#slideshow, #slides {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+#monitor-container img {
+    border-radius: 100px;
+    padding: 20px;
+    width: 525px;
+    box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.20);
+}
+
+
+.section-block {
+    background-color: #bdefff; 
+    width: 100vw;             
+    margin-left: 50%;
+    transform: translateX(-50%); 
+    padding: 40px 0;
+    border-radius: 0 0 35px 35px;     box-shadow: 0px 8px 20px rgba(0,0,0,0.25);
+}
+
